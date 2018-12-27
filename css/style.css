@@ -1,5 +1,284 @@
 body {
 	font-family: "Montserrat";
-	font-style: normal;
+	width: 1440px;
+	margin: auto;
+	outline: 1px solid green;
+}
+/* logo + menu */
+.header__top-bar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 24px 50px 60px 49px;	
+	height: 51px;
+}
+
+.header__mini-logo {
+	background: url(../img/Tesla-Wordmark-Red.png) no-repeat;	
+	width: 166px;
+	height: 51px;
+}
+
+.nav-menu {
+	margin-left: 129px;
+}
+
+.nav-menu__chosen {
+	color: #E51937;
+	text-align: right;
+	position: relative;
+}
+
+.nav-menu__vector {
+	position: absolute;
+	bottom: -8px;
+	left: 0;
+	width: 60px;
+	height: 2px;
+	background: #E51937;
+}
+
+.nav-menu__item {
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: 600;
+	margin-right: 40px;
+	color: #000000;
+}
+
+.nav-menu__item:nth-child(4) {
+	margin-right: 42px;
+}
+
+.nav-actions {
+	display: flex;
+	align-items: center;
+}
+
+.nav-actions__item {
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: 600;
+	margin-left: 30px;
+	color: #000000;
+}
+
+.burger-menu {
+	width: 24px;
+	height: 15px;
+	background: url(../img/burger-menu.png);
+}
+
+/* section 1 */
+.presentation {
+	position: relative;
+	width: 1440px;
+	height: 594px;	
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-bottom: 25px;
+}
+
+.presentation__bg-logo {	
+	background: url(../img/Tesla-Big-Wordmark-Red.png);
+	width: 1440px;
+	height: 467px;
+}
+
+.presentation__car {
+}
+
+.presentation__title {
+	margin: 0;
+	position: absolute;
+	top: -2px;
+	font-size: 90px;
+	font-weight: 600;
+	color: #000;
+}
+
+.presentation__text {
+	position: absolute;
+	top: 98px;
+	font-size: 15px;
+	font-weight: 500;
+	color: #000;
+}
+
+.presentation__car {
+	position: absolute;
+	top: 144px;
+}
+/* footer-info-section 1 */
+.header__indicators-action {	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	margin: 0 321px 34px;
+
+}
+
+.header__indicators {
+	display: flex;
+	height: 58px;	
+}
+
+.indicators__acceleration {
+	display: flex;
+	align-items: center;
+	margin-right: 70px;
+}
+
+.indicators__speed-icon {
+	background: url(../img/Speed.svg) no-repeat;
+	width: 46px;
+	height: 35px;
+	margin-right: 14px;	
+}
+
+.indicators__parametr1 {
+	display: flex;
+	flex-direction: column;
+	width: 105px;
+}
+
+.indicators__parametr2 {
+	display: flex;
+	flex-direction: column;
+	width: 98.5px;	
+}
+
+
+.indicators__number1 {	
+	font-size: 35px;
+	font-weight: 600;
+	color: #000;
+	height: 43px;
+}
+
+.indicators__sec {
+	font-size: 20px;
+	font-weight: 600;
+	color: #000;
+	padding-left: 7px;
+
+
+}
+
+.indicators__speed100 {
+	font-size: 12px;
 	font-weight: normal;
+	color: #000;
+	height: 15px;
+	margin-top: -2px;
+}
+
+
+.indicators__pwr-reserve {
+	display: flex;
+	align-items: flex-end;	
+	margin-right: 105px;	
+	width: 140px;
+}
+
+.indicators__road-icon {
+	background: url(../img/Road-icon.svg);
+	width: 30.5px;
+	height: 50px;
+	margin-right: 11px;	
+}
+
+.indicators__number2 {	
+	font-size: 35px;
+	font-weight: 600;
+	color: #000;
+	height: 43px;
+}
+
+.indicators__distance {
+	font-size: 20px;
+	font-weight: 600;
+	color: #000;
+	padding-left: 7px;
+
+}
+
+.indicators__reserve {
+	font-size: 12px;
+	font-weight: normal;
+	color: #000;
+	height: 15px;
+}
+
+.test-drive {
+	display: flex;
+	align-items: center;
+	margin: 4px 40px 0 0;
+	text-decoration: none;	
+	width: 118px;
+	color: #000;
+}
+
+.test-drive__wheel-icon {
+	background: url(../img/steering-wheel.png) no-repeat;
+	width: 22px;
+	height: 22px;
+	margin-right: 7px;
+}
+
+.test-drive__text {
+	font-size: 13px;
+	font-weight: bold;
+	text-transform: uppercase;
+	
+}
+
+.test-drive:hover .test-drive__wheel-icon{
+	background: url(../img/steering-wheel-red.png) no-repeat;	
+}
+
+.test-drive:hover {
+	color: #E51937;	
+}
+
+.btn {
+	font-family: "Montserrat";
+	width: 160px;
+	height: 40px;
+	font-size: 13px;
+	font-weight: bold;
+	text-transform: uppercase;
+	box-sizing: border-box;
+	text-align: center;
+	border: 2px solid;
+}
+
+.order__button {
+	border: 2px solid #E51937;
+	background: #FFF;
+	color: #E51937;
+	margin-top: 3px;
+	padding-bottom: 2px;
+	padding-left: 7px;
+}
+
+.order__button:hover {
+	background: #E51937;
+	color: #FFF;
+	cursor: pointer;
+}
+
+.vector {	
+	display: flex;
+	justify-content: center;
+}
+
+.vector:before {
+	content: "";
+    background: url(../img/Vector.svg) no-repeat;
+    width: 34px;
+	height: 24px;
+	margin-bottom: 500px;
 }
