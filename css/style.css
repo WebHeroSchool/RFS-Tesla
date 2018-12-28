@@ -1,8 +1,8 @@
 body {
 	font-family: "Montserrat";
 	width: 1440px;
-	margin: auto;
-	outline: 1px solid green;
+	margin: 0 auto;
+/*	outline: 1px solid green; */
 }
 /* logo + menu */
 .header__top-bar {
