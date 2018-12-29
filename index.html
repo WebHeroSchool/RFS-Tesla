@@ -3,6 +3,7 @@
 <head>
   <title>Tesla Landing</title>
   <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0, width=device-width">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="css/fonts.css">
 </head>
@@ -27,39 +28,44 @@
         <a href="#" class="nav-actions__item burger-menu"></a>
       </nav>
     </div>
-    <section class="presentation">
-      <div class="presentation__bg-logo"></div>
-      <div class="presentation__car">
-      	<img  class="presentation__car-image" src="img/tesla-car.png" alt="">
-      </div>
-      <h1 class="presentation__title">Model S</h1>
-      <span class="presentation__text">Добро пожаловать в будущее!</span>      
-    </section>
-    <div class="header__indicators-action">
-      <div class="header__indicators">
-      	<div class="indicators__acceleration"> <!-- Блок спидометр + 2.7сек -->
-      	  <div class="indicators__speed-icon"></div>
-          <div class="indicators__parametr1">
-        	  <span class="indicators__number1">2,7<span class="indicators__sec">сек</span></span>
-            <span class="indicators__speed100">0-100 км/час</span>
-          </div>
-      	</div>
-      	<div class="indicators__pwr-reserve"> <!-- Блок дорога + 632км -->
-      	  <div class="indicators__road-icon"></div>
-          <div class="indicators__parametr2">
-        	  <span class="indicators__number2">632<span class="indicators__distance">км</span></span>
-        	  <span class="indicators__reserve">запас хода</span>
-          </div>
-      	</div>
-      </div>
-      <a class="test-drive" href="#">
-      	<div class="test-drive__wheel-icon"></div>
-      	<span class="test-drive__text">Тест драйв</span>
-      </a>      
-      <button class="order__button btn"><span class="order__button-text"> Заказать</span></button>
-    </div>
-    <div class="vector"></div>
   </header>
+  <section class="presentation">
+    <div class="presentation__bg-logo">
+      <img class="presentation__bg-image" src="img/Tesla logo + car.png" alt="">
+    </div>
+  <!-- 
+    <div class="presentation__car">
+    	<img  class="presentation__car-image" src="img/tesla-car.png" alt="">
+    </div>
+  -->
+    <h1 class="presentation__title">Model S</h1>
+    <span class="presentation__text">Добро пожаловать в будущее!</span>      
+  </section>
+  <div class="header__indicators-action">
+    <div class="header__indicators">
+    	<div class="indicators__acceleration"> <!-- Блок спидометр + 2.7сек -->
+    	  <div class="indicators__speed-icon"></div>
+        <div class="indicators__parametr1">
+      	  <span class="indicators__number1">2,7<span class="indicators__sec">сек</span></span>
+          <span class="indicators__speed100">0-100 км/час</span>
+        </div>
+    	</div>
+    	<div class="indicators__pwr-reserve"> <!-- Блок дорога + 632км -->
+    	  <div class="indicators__road-icon"></div>
+        <div class="indicators__parametr2">
+      	  <span class="indicators__number2">632<span class="indicators__distance">км</span></span>
+      	  <span class="indicators__reserve">запас хода</span>
+        </div>
+    	</div>
+    </div>
+    <a class="test-drive" href="#">
+    	<div class="test-drive__wheel-icon"></div>
+    	<span class="test-drive__text">Тест драйв</span>
+    </a>      
+    <button class="order__button btn"><span class="order__button-text"> Заказать</span></button>
+  </div>
+  <div class="vector"></div>
+  <!-- 
   <main class="main">
   	<section class="main__advantage advantage">
   	  <article class="advantage__bg">

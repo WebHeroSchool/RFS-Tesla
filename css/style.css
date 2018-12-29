@@ -1,6 +1,7 @@
 body {
 	font-family: "Montserrat";
-	width: 1440px;
+	min-width: 1155px;
+	max-width: 1440px;
 	margin: 0 auto;
 /*	outline: 1px solid green; */
 }
@@ -9,6 +10,7 @@ body {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	flex-wrap: wrap;
 	margin: 24px 50px 60px 49px;	
 	height: 51px;
 }
@@ -72,21 +74,17 @@ body {
 /* section 1 */
 .presentation {
 	position: relative;
-	width: 1440px;
-	height: 594px;	
+	max-height: 594px;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
 	margin-bottom: 25px;
+/*	outline: 2px solid green; */
 }
 
-.presentation__bg-logo {	
-	background: url(../img/Tesla-Big-Wordmark-Red.png);
-	width: 1440px;
-	height: 467px;
-}
-
-.presentation__car {
+.presentation__bg-image {
+	max-width: 100%;
+	min-width: 500px;
 }
 
 .presentation__title {
@@ -106,23 +104,20 @@ body {
 	color: #000;
 }
 
-.presentation__car {
-	position: absolute;
-	top: 144px;
-}
 /* footer-info-section 1 */
 .header__indicators-action {	
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: row;
-	margin: 0 321px 34px;
+	flex-wrap: wrap;
+	margin-bottom: 34px;
 
 }
 
 .header__indicators {
 	display: flex;
-	height: 58px;	
+	height: 58px;
 }
 
 .indicators__acceleration {
@@ -231,8 +226,7 @@ body {
 .test-drive__text {
 	font-size: 13px;
 	font-weight: bold;
-	text-transform: uppercase;
-	
+	text-transform: uppercase;	
 }
 
 .test-drive:hover .test-drive__wheel-icon{
