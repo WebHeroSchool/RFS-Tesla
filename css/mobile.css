@@ -1,0 +1,164 @@
+@media (max-width: 375px) {
+
+	body {
+		min-width: 100%;
+		outline: 1px solid black;
+
+	}
+	
+	.header {
+		min-width: 100%;
+	}
+
+	.header__top-bar {
+		margin: 0;
+		margin-bottom: 105px;
+		padding-left: 2px;
+		padding-right: 21px;
+		box-sizing: border-box;
+		min-width: 100%;
+	}
+
+	.header__mini-logo {
+		background: url(../img/Tesla-Wordmark-Red-m.png) no-repeat;
+		width: 138px;
+		height: 42px;
+	}
+	
+	.nav-menu,
+	.action-hide {
+		display: none;
+	}		
+
+	.presentation {
+		background: url(../img/Tesla-Big-Wordmark-Red-m.png) no-repeat;
+		width: 375px;
+		height: 139px;
+		margin-bottom: 86px;
+	}
+
+	.presentation__bg-logo {
+		position: absolute;
+		top: 41px;
+		background: url(../img/tesla-car-m.png) no-repeat;
+		width: 357px;
+		height: 166px;
+	}
+
+	.presentation__bg-image {
+		display: none;
+	}
+
+	.presentation__title {
+		font-size: 50px;
+		top: -79px;
+	}
+
+	.presentation__text {
+		font-size: 10px;
+		top: -21px;
+		font-family: "Montserrat";
+	}
+
+	.header__indicators-action {
+		width: 100%;
+		margin-bottom: 31px;
+
+	}
+
+	.header__indicators {
+		width: 100%;
+		padding-top: 3px;
+		box-sizing: border-box;
+		margin-bottom: 35px;
+	}
+
+	.indicators__acceleration {
+		padding-left: 42px;
+		margin-right: 11px;
+		box-sizing: border-box;
+	}
+
+	.indicators__speed-icon {
+		background: url(../img/speed-m.png) no-repeat;
+		width: 38.14px;
+		height: 28.7px;
+	}
+
+	.indicators__parametr1 {
+		box-sizing: border-box;
+	}
+
+	.indicators__number1 {
+		font-size: 27px;
+		padding-top: 8px;
+		box-sizing: border-box;
+	}
+
+	.indicators__sec {
+		font-size: 15px;
+		padding-left: 8px;
+	}
+
+	.indicators__speed100 {
+		font-size: 10px;
+		height: 15px;
+		padding-bottom: 21px;
+		box-sizing: border-box;
+	}
+
+	.indicators__pwr-reserve {
+		display: flex;
+		align-items: center;
+	}
+
+	.indicators__road-icon {
+		background: url(../img/road-m.png) no-repeat;
+		width: 25.29px;
+		height: 41px;
+	}
+
+	.indicators__parametr2 {
+		padding-left: 0.5px;
+		box-sizing: border-box;
+	}
+
+	.indicators__number2 {
+		font-size: 27px;
+		padding-top: 11px;
+		box-sizing: border-box;
+	}
+
+	.indicators__distance {
+		font-size: 15px;
+		padding-left: 8px;
+		box-sizing: border-box;
+	}
+
+	.indicators__reserve {
+		font-size: 10px;
+		height: 13px;
+		padding-bottom: 24px;
+		box-sizing: border-box;
+	}
+
+	.test-drive {
+		margin: 2px 25px 0 0;
+		color: #E51937;
+	}
+
+	.test-drive__wheel-icon {
+		background: url(../img/steering-wheel-red.png) no-repeat;
+	}
+
+	.btn {
+		background: #E51937;
+		color: #FFF;
+		padding-bottom: 3px;
+	}
+	.vector {
+		width: 100%;
+		padding-left: 1px;
+	}
+
+}

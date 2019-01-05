@@ -1,6 +1,6 @@
 body {
 	font-family: "Montserrat";
-	min-width: 1155px;
+	
 	max-width: 1440px;
 	margin: 0 auto;
 /*	outline: 1px solid green; */
@@ -105,7 +105,7 @@ body {
 }
 
 /* footer-info-section 1 */
-.header__indicators-action {	
+.header__indicators-action {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -130,7 +130,7 @@ body {
 	background: url(../img/Speed.svg) no-repeat;
 	width: 46px;
 	height: 35px;
-	margin-right: 14px;	
+	margin-right: 14px;
 }
 
 .indicators__parametr1 {
@@ -174,7 +174,7 @@ body {
 .indicators__pwr-reserve {
 	display: flex;
 	align-items: flex-end;	
-	margin-right: 105px;	
+	margin-right: 105px;
 	width: 140px;
 }
 
@@ -229,7 +229,7 @@ body {
 	text-transform: uppercase;	
 }
 
-.test-drive:hover .test-drive__wheel-icon{
+.test-drive:hover .test-drive__wheel-icon {
 	background: url(../img/steering-wheel-red.png) no-repeat;	
 }
 
@@ -274,5 +274,5 @@ body {
     background: url(../img/Vector.svg) no-repeat;
     width: 34px;
 	height: 24px;
-	margin-bottom: 500px;
+	margin-bottom: 50px;
 }
