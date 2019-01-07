@@ -36,6 +36,11 @@
 
 }
 
+@media (max-width: 797px) {
+	.order__button {
+		margin-top: 30px;
+	}
+}
 
 @media (max-width: 637px) {
 
@@ -56,6 +61,10 @@
 	
 	.indicators__pwr-reserve {
 		margin-right: 0;
+	}
+
+	.test-drive {
+		margin-top: 30px;
 	}
 
 }
@@ -206,9 +215,10 @@
 		box-sizing: border-box;
 	}
 
-	.test-drive {
-		margin: 2px 25px 0 0;
+	.test-drive {		
+		margin: 3px 25px 0 0;		
 		color: #E51937;
+
 	}
 
 	.test-drive__wheel-icon {
@@ -220,6 +230,12 @@
 		color: #FFF;
 		padding-bottom: 3px;
 	}
+
+	.order__button {
+		margin-top: 3px;
+		
+	}
+
 	.vector {
 		width: 100%;
 		padding-left: 1px;
@@ -228,3 +244,30 @@
 }
 
 
+@media (max-width: 320px) {
+	
+	.presentation {
+		background: url(../img/Tesla-Big-Wordmark-Red-m.png) 50% 50% no-repeat;
+		background-size: contain;
+		max-width: 100%;
+		margin-bottom: 86px;
+	}
+
+	.presentation__bg-logo {
+		position: absolute;
+		top: 41px;
+		background: url(../img/tesla-car-m.png) 50% 50% no-repeat;
+		background-size: contain;
+		max-width: 100%;
+	}
+
+	.header__indicators {
+		justify-content: flex-end;
+		padding-left: 20px; 
+		box-sizing: border-box;
+	}
+
+	.indicators__acceleration {
+		padding-left: 0;
+	}
+}
