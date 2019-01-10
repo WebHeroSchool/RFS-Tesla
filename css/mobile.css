@@ -1,18 +1,19 @@
 @media (max-width: 1155px) {
 
-	
+	.presentation__text {
+		margin-bottom: 39px;
+	}
+
 	.action-hide {
 		display: none;
 	}
 
 	.presentation__title {
 		font-size: 80px;
-		top: -39px;
 	}
 
 	.presentation__text {
 		font-size: 14px;
-		top: 48px;
 	}
 
 }
@@ -30,7 +31,6 @@
 
 	.presentation__text {
 		font-size: 12px;
-		top: 38px;
 	}
 
 
@@ -44,6 +44,10 @@
 
 @media (max-width: 637px) {
 
+	.presentation__text {
+		margin-bottom: 73px;
+	}
+
 	.header__indicators {
 		justify-content: center;
 		width: 100%;
@@ -51,12 +55,10 @@
 
 	.presentation__title {
 		font-size: 60px;
-		top: -49px;
 	}
 
 	.presentation__text {
 		font-size: 11px;
-		top: 13px;
 	}
 	
 	.indicators__pwr-reserve {
@@ -73,19 +75,13 @@
 /* mobile 375px */
 @media (max-width: 375px) {
 
-	body {
-		min-width: 100%;
-	/*	outline: 1px solid black; */
-
-	}
-	
 	.header {
 		min-width: 100%;
 	}
 
 	.header__top-bar {
 		margin: 0;
-		margin-bottom: 105px;
+		margin-bottom: 26px;
 		padding-left: 2px;
 		padding-right: 21px;
 		box-sizing: border-box;
@@ -101,36 +97,35 @@
 	.nav-menu,
 	.action-hide {
 		display: none;
-	}		
+	}
 
 	.presentation {
-		background: url(../img/Tesla-Big-Wordmark-Red-m.png) no-repeat;
-		width: 375px;
-		height: 139px;
-		margin-bottom: 86px;
+		background: url(../img/Tesla-Big-Wordmark-Red-m.png) 50% 54% no-repeat;
+		background-size: contain;
+		width: 100%;
+		margin-bottom: 18px;
+	}
+
+	.presentation__title {
+		font-size: 50px;
+	}
+
+	.presentation__text {
+		font-family: "Montserrat";
+		font-size: 10px;		
+		margin-top: -3px;
+		margin-bottom: 49px;
 	}
 
 	.presentation__bg-logo {
-		position: absolute;
-		top: 41px;
-		background: url(../img/tesla-car-m.png) no-repeat;
-		width: 357px;
+		background: url(../img/tesla-car-m.png) 50% 50% no-repeat;
+		background-size: contain;
+		width: 100%;
 		height: 166px;
 	}
 
 	.presentation__bg-image {
 		display: none;
-	}
-
-	.presentation__title {
-		font-size: 50px;
-		top: -79px;
-	}
-
-	.presentation__text {
-		font-size: 10px;
-		top: -21px;
-		font-family: "Montserrat";
 	}
 
 	.header__indicators-action {
@@ -139,15 +134,13 @@
 	}
 
 	.header__indicators {
-		justify-content: flex-start;
-		width: 100%;
 		padding-top: 3px;
 		box-sizing: border-box;
 		margin-bottom: 35px;
 	}
 
 	.indicators__acceleration {
-		padding-left: 42px;
+		padding-left: 17px;
 		margin-right: 11px;
 		box-sizing: border-box;
 	}
@@ -194,6 +187,7 @@
 	.indicators__parametr2 {
 		padding-left: 0.5px;
 		box-sizing: border-box;
+		padding-bottom: 0px;
 	}
 
 	.indicators__number2 {
@@ -212,13 +206,13 @@
 		font-size: 10px;
 		height: 13px;
 		padding-bottom: 24px;
-		box-sizing: border-box;
+		box-sizing: border-box;		
+		margin-top: 0px;
 	}
 
 	.test-drive {		
 		margin: 3px 25px 0 0;		
 		color: #E51937;
-
 	}
 
 	.test-drive__wheel-icon {
@@ -232,8 +226,7 @@
 	}
 
 	.order__button {
-		margin-top: 3px;
-		
+		margin-top: 3px;		
 	}
 
 	.vector {
@@ -245,26 +238,10 @@
 
 
 @media (max-width: 320px) {
-	
-	.presentation {
-		background: url(../img/Tesla-Big-Wordmark-Red-m.png) 50% 50% no-repeat;
-		background-size: contain;
-		max-width: 100%;
-		margin-bottom: 86px;
-	}
-
-	.presentation__bg-logo {
-		position: absolute;
-		top: 41px;
-		background: url(../img/tesla-car-m.png) 50% 50% no-repeat;
-		background-size: contain;
-		max-width: 100%;
-	}
-
+		
 	.header__indicators {
 		justify-content: flex-end;
-		padding-left: 20px; 
-		box-sizing: border-box;
+		padding-left: 20px;
 	}
 
 	.indicators__acceleration {
