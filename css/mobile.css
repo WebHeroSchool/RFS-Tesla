@@ -1,0 +1,247 @@
+@media (max-width: 1155px) {
+
+	.action-hide {
+		display: none;
+	}
+
+	.presentation__title {
+		font-size: 80px;
+	}
+
+	.presentation__text {
+		font-size: 14px;
+		margin-bottom: 85px;
+	}
+
+}
+
+
+@media (max-width: 976px) {
+
+	.nav-menu {
+		display: none;
+	}
+
+	.presentation__title {
+		font-size: 70px;
+	}
+
+	.presentation__text {
+		font-size: 12px;
+	}
+
+
+}
+
+@media (max-width: 797px) {
+	.order__button {
+		margin-top: 30px;
+	}
+
+	.header {
+		margin-left: 2.300%;
+		margin-right: 5.900%;
+	}
+
+
+}
+
+@media (max-width: 637px) {
+
+	.header__indicators {
+		justify-content: center;
+		width: 100%;
+	}
+
+	.presentation__title {
+		font-size: 60px;
+	}
+
+	.presentation__text {
+		font-size: 11px;
+		margin-bottom: 115px;
+	}
+	
+	.indicators__pwr-reserve {
+		margin-right: 0;
+	}
+
+	.test-drive {
+		margin-top: 30px;
+	}
+
+}
+
+
+/* mobile 375px */
+@media (max-width: 375px) {
+
+	.header {
+		margin: 0;
+		margin-bottom: 26px;
+		padding-left: 2px;
+		padding-right: 21px;
+		box-sizing: border-box;
+		min-width: 100%;
+	}
+
+	.header__mini-logo {
+		background: url(../img/Tesla-Wordmark-Red-m.png) no-repeat;
+		width: 138px;
+		height: 42px;
+	}
+	
+	.nav-menu,
+	.action-hide {
+		display: none;
+	}
+
+	.presentation {
+		background: url(../img/Tesla-Big-Wordmark-Red-m.png) 50% 54% no-repeat;
+		background-size: contain;
+		width: 100%;
+		margin-bottom: 18px;
+	}
+
+	.presentation__title {
+		font-size: 50px;
+	}
+
+	.presentation__text {
+		font-family: "Montserrat";
+		font-size: 10px;		
+		margin-top: -3px;
+		margin-bottom: 49px;
+	}
+
+	.presentation__bg-logo {
+		background: url(../img/tesla-car-m.png) 50% 50% no-repeat;
+		background-size: contain;
+		width: 100%;
+		height: 166px;
+	}
+
+	.presentation__bg-image {
+		display: none;
+	}
+
+	.header__indicators-action {
+		width: 100%;
+		margin-bottom: 31px;
+	}
+
+	.header__indicators {
+		padding-top: 3px;
+		box-sizing: border-box;
+		margin-bottom: 35px;
+	}
+
+	.indicators__acceleration {
+		padding-left: 17px;
+		margin-right: 11px;
+		box-sizing: border-box;
+	}
+
+	.indicators__speed-icon {
+		background: url(../img/speed-m.png) no-repeat;
+		width: 38.14px;
+		height: 28.7px;
+	}
+
+	.indicators__parametr1 {
+		box-sizing: border-box;
+	}
+
+	.indicators__number1 {
+		font-size: 27px;
+		padding-top: 8px;
+		box-sizing: border-box;
+	}
+
+	.indicators__sec {
+		font-size: 15px;
+		padding-left: 8px;
+	}
+
+	.indicators__speed100 {
+		font-size: 10px;
+		height: 15px;
+		padding-bottom: 21px;
+		box-sizing: border-box;
+	}
+
+	.indicators__pwr-reserve {
+		display: flex;
+		align-items: center;
+	}
+
+	.indicators__road-icon {
+		background: url(../img/road-m.png) no-repeat;
+		width: 25.29px;
+		height: 41px;
+	}
+
+	.indicators__parametr2 {
+		padding-left: 0.5px;
+		box-sizing: border-box;
+		padding-bottom: 0px;
+	}
+
+	.indicators__number2 {
+		font-size: 27px;
+		padding-top: 11px;
+		box-sizing: border-box;
+	}
+
+	.indicators__distance {
+		font-size: 15px;
+		padding-left: 8px;
+		box-sizing: border-box;
+	}
+
+	.indicators__reserve {
+		font-size: 10px;
+		height: 13px;
+		padding-bottom: 24px;
+		box-sizing: border-box;		
+		margin-top: 0px;
+	}
+
+	.test-drive {		
+		margin: 3px 25px 0 0;		
+		color: #E51937;
+	}
+
+	.test-drive__wheel-icon {
+		background: url(../img/steering-wheel-red.png) no-repeat;
+	}
+
+	.btn {
+		background: #E51937;
+		color: #FFF;
+		padding-bottom: 3px;
+	}
+
+	.order__button {
+		margin-top: 3px;		
+	}
+
+	.vector {
+		width: 100%;
+		padding-left: 1px;
+	}
+
+}
+
+
+@media (max-width: 320px) {
+		
+	.header__indicators {
+		justify-content: flex-end;
+		padding-left: 20px;
+	}
+
+	.indicators__acceleration {
+		padding-left: 0;
+	}
+}
