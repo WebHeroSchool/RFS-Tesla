@@ -10,7 +10,7 @@ body {
 }
 
 /* logo + menu */
-.header__top-bar {
+.header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;

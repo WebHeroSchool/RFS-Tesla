@@ -37,6 +37,13 @@
 	.order__button {
 		margin-top: 30px;
 	}
+
+	.header {
+		margin-left: 2.300%;
+		margin-right: 5.900%;
+	}
+
+
 }
 
 @media (max-width: 637px) {
@@ -70,10 +77,6 @@
 @media (max-width: 375px) {
 
 	.header {
-		min-width: 100%;
-	}
-
-	.header__top-bar {
 		margin: 0;
 		margin-bottom: 26px;
 		padding-left: 2px;
