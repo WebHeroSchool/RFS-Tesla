@@ -1,7 +1,6 @@
 body {
 	font-family: "Montserrat";
-	margin: 0;		
-/*	outline: 1px solid green; */
+	margin: 0;
 }
 
 .body__wrap {
@@ -489,6 +488,11 @@ p {
 }
 
 /*section 3*/
+
+.main__safety {
+	display: flex;
+}
+
 .safety__sidebar {
 	padding: 51px 68px 60px 56px;
 }
@@ -608,4 +612,53 @@ p {
 .safety__button:hover {
 	background: #fff;
 	color: #E51937;
+}
+
+.safety__frame {
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 900px;
+    width: calc(100% - 440px);
+}
+
+.safety__bg-header {
+	font-weight: 600;
+	font-size: 200px;
+	color: #E51937;
+	opacity: 0.1;
+	text-align: right;
+    padding-top: 97px;
+}
+
+.safety__image {
+	max-width: 100%;
+}
+
+.safety__image-m {
+	display: none;
+}
+
+
+.safety__car-frame {
+	margin-top: -265px;
+    margin-left: -95px;
+}
+
+.safety__WHS-logo {
+	display: flex;
+	align-self: flex-end;
+	background: url(../img/yellow-logo.png) right no-repeat;
+	width: 162px;
+	height: 22px;
+	margin-right: 25px;
+	margin-bottom: 16px;
+}
+
+.safety__develop {
+	font-weight: bold;
+	font-size: 8px;
+	color: #000000;
+	text-transform: uppercase;
+	padding-top: 2px;
 }
